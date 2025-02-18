@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6159A34FE443E3BD51D517 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714594468C9D4B969F5934E5 /* Quicksand-Medium.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-taskManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-taskManager.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13BE1F220A4B84B644EE614E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		2B7AAEEE58384AA1A7CAF63F /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50734B5A0ED14D30B2AF85C7 /* Quicksand-Light.ttf */; };
+		6D69FDA970844372A0FC66B6 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF322D107DA41739CBEA15D /* Quicksand-Bold.ttf */; };
+		75DD17E9B83D4325A4E8C0A7 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83255CC9966D46C08931ACAF /* Quicksand-SemiBold.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8A09E9D878D74F2B93264049 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB5810AE6DF3494DB721F3CF /* Quicksand-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = taskManager/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = taskManager/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-taskManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskManager.debug.xcconfig"; path = "Target Support Files/Pods-taskManager/Pods-taskManager.debug.xcconfig"; sourceTree = "<group>"; };
+		50734B5A0ED14D30B2AF85C7 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Light.ttf"; path = "../src/assets/fonts/Quicksand-Light.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-taskManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taskManager.release.xcconfig"; path = "Target Support Files/Pods-taskManager/Pods-taskManager.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-taskManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-taskManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		714594468C9D4B969F5934E5 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Medium.ttf"; path = "../src/assets/fonts/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = taskManager/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = taskManager/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83255CC9966D46C08931ACAF /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-SemiBold.ttf"; path = "../src/assets/fonts/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		9FF322D107DA41739CBEA15D /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Bold.ttf"; path = "../src/assets/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		EB5810AE6DF3494DB721F3CF /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Regular.ttf"; path = "../src/assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +70,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		76A464DA671343D897F8F24B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FF322D107DA41739CBEA15D /* Quicksand-Bold.ttf */,
+				50734B5A0ED14D30B2AF85C7 /* Quicksand-Light.ttf */,
+				714594468C9D4B969F5934E5 /* Quicksand-Medium.ttf */,
+				EB5810AE6DF3494DB721F3CF /* Quicksand-Regular.ttf */,
+				83255CC9966D46C08931ACAF /* Quicksand-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +98,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				76A464DA671343D897F8F24B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +185,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13BE1F220A4B84B644EE614E /* PrivacyInfo.xcprivacy in Resources */,
+				6D69FDA970844372A0FC66B6 /* Quicksand-Bold.ttf in Resources */,
+				2B7AAEEE58384AA1A7CAF63F /* Quicksand-Light.ttf in Resources */,
+				0C6159A34FE443E3BD51D517 /* Quicksand-Medium.ttf in Resources */,
+				8A09E9D878D74F2B93264049 /* Quicksand-Regular.ttf in Resources */,
+				75DD17E9B83D4325A4E8C0A7 /* Quicksand-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
