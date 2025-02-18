@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Task } from '../types/Task';
 
-const API_URL = 'http://192.168.2.89:3000/api';
+const API_URL = 'http://0.0.0.00:3000/api'; //replace 0.0.0.00 with your IP address
 
 const api = {
   getTasks: async (): Promise<Task[]> => {
